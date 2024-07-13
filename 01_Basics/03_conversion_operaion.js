@@ -29,3 +29,20 @@ let isLoggedIn = "";
 isLoggedIn = Boolean(isLoggedIn);
 console.log(typeof isLoggedIn); // boolean
 console.log(isLoggedIn); // false
+console.log("************************");
+console.log(2+"1"); //21
+console.log(1+"2"); //12
+console.log("1"+ 1+1);// 111
+console.log(1+2+"2");//32
+console.log("***************");
+console.log(+true); //1
+console.log(+"");//0
+console.log("*******************");
+console.log("2">1); // true
+console.log("02">1); // true
+console.log("*************");
+console.log(null>0); // false
+console.log(null==0);//false
+console.log(null>=0); // true
+// comparisons convert null to a number, treating it as 0
+console.log("2"===2);
